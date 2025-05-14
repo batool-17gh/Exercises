@@ -1,41 +1,32 @@
-:• תיאור כללי של הפרויקט.
+• General description of the project.
+This is a software that allows to perform simple operations on files and folders through commands that the user writes.
+For example: to show the folder in which we are located (pwd),
+to move between folders (cd),
+to create files (touch),
+to create folders (mkdir),
+to see what is inside the folder (ls),
+to print an explanation about the commands (help),
+and to exit the program (exit).
 
-זהו תוכנה שמאפשרת לעשות פעולות פשוטות על קבצים ותיקיות דרך פקודות שהמשתמש כותב.
-לדוגמה: להראות את התיקייה שבה אנחנו נמצאים (pwd),
-לעבור בין תיקיות (cd),
-ליצור קבצים (touch),
-ליצור תיקיות (mkdir),
-לראות מה יש בתוך התיקייה (ls),
-להדפיס הסבר על הפקודות (help),
-ולצאת מהתוכנית (exit).
-
-• הוראות כיצד לקמפל ולהריץ את הקוד :  
-הוראות לקימפול והרצה של הקוד:
-
-פתחו את הפרויקט בסביבת הפיתוח IntelliJ IDEA.
-
-הפעילו את הקובץ MiniShell.java באמצעות כפתור ההרצה ( run).
+• Instructions on how to compile and run the code:
+Instructions for compiling and running the code:
+Open the project in the IntelliJ IDEA development environment.
+Run the file MiniShell.java using the run button.
 pwd, mkdir, cd, touch, ls, help, exit.
+Make sure that the commands are typed correctly in order to get the desired result.
 
-ודאו שהפקודות מוקלדות בצורה נכונה כדי לקבל את התוצאה הרצויה.
+Example of running the commands:
 
-דוגמה להרצת הפקודות
-
-
-> pwd  
+pwd
 C:\Users\Student\Desktop\MiniShell
 
-> mkdir Projects  
+mkdir Projects
 Directory created: [Projects]
 
-> cd Projects
+cd Projects
 
-
-> touch README.txt  
+touch README.txt
 File created: [README.txt]
 
-> ls  
+ls
 [FILE] README.txt
-
-
-יש הסבר מפורט בתוך הקוד עצמו.
