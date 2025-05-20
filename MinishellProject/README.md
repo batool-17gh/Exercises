@@ -3,14 +3,13 @@
 This is a lightweight Java-based shell simulator that supports basic file system operations.
 With this tool, you can navigate folders, list contents, create files or directories, and more — using commands like `cd`, `ls`, `mkdir`, `touch`, `pwd`, and others.
 
----
 
 ## Overview
 
 The purpose of this project is to gain hands-on experience with Java’s file handling and user input processing.
 It mimics a command-line interface in a minimal and educational manner, making it easier to understand how shells like Bash or PowerShell handle commands.
 
----
+
 
 ## Running the Program
 
@@ -29,7 +28,7 @@ cd \[your-project-folder]
 javac MiniShell.java ShellCommandHandler.java
 java MiniShell
 
----
+
 
 ## Example Usage
 
@@ -49,7 +48,7 @@ C:\Users\Username\test > ls
 Lists contents of the current folder
 🡒 Output: \[FILE] file.txt
 
----
+
 
 ## Inside the Code
 
@@ -60,7 +59,7 @@ String\[] parts = input.split(" ", 2);
 This separates the command from its argument using a space.
 The program uses a `switch` statement to identify which command was entered.
 
----
+
 
 **ShellCommandHandler.java**
 This class defines the behavior of each supported command:
@@ -72,7 +71,7 @@ This class defines the behavior of each supported command:
 * `createFile(String name)` — Makes an empty file in the current location.
 * `printHelp()` — Lists all available commands and their usage.
 
----
+
 
 ## Commands Supported
 
@@ -84,5 +83,5 @@ touch \[name] → Create a file
 help → Show available commands
 exit → Exit the shell
 
----
+
 
